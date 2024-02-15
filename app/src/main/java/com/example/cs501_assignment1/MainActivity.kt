@@ -33,12 +33,12 @@ class MainActivity : AppCompatActivity() {
             checkAnswer(view,false)
         }
 
-        binding.nextButton.setOnClickListener { view: View ->
-            currentIndex = (currentIndex + 1) % questionBank.size
+        binding.helloButton.setOnClickListener { view: View ->
+            //currentIndex = (currentIndex + 1) % questionBank.size
             updateQuestion()
         }
 
-        updateQuestion()
+        //updateQuestion()
     }
 
     override fun onStart() {
@@ -68,7 +68,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun updateQuestion() {
         val questionTextResId = questionBank[currentIndex].textResId
-        binding.questionTextView.setText(questionTextResId)
+        //binding.helloText.setText(questionTextResId)
+        binding.helloText.text = buildString {
+            append("Hello")
+        }
+        binding.helloEdit.setText("Hello")
     }
 
     private fun checkAnswer(view: View, userAnswer: Boolean) {

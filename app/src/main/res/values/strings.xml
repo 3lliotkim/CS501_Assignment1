@@ -4,7 +4,8 @@
     <string name="question_mideast">The Suez Canal connects the Red Sea.</string>
     <string name="true_button">True</string>
     <string name="false_button">False</string>
-    <string name="next_button">Next</string>
+    <string name="helloButton">View</string>
+    <string name="hello">Hello</string>
     <string name="correct_toast">Correct!</string>
         <string name="incorrect_toast">Incorrect!</string>
     <string name="correct_snack">Correct!</string>
