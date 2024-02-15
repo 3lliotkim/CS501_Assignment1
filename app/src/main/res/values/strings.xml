@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GeoQuiz</string>
+    <string name="app_name">Log</string>
     <string name="question_australia">Canberra is the capital of Australia.</string>
     <string name="question_mideast">The Suez Canal connects the Red Sea.</string>
     <string name="true_button">True</string>
